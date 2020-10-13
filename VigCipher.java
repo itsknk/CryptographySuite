@@ -1,7 +1,7 @@
 /**
  * @Author: Kishore Karanam <itsknk>
  * @Date: 2020-10-13 09:20
- * @Project: Diffie–Hellman key exchange Algorithm Implementation
+ * @Project: Vigenere Cipher Implementation
  * @Last modified by: itsknk
  * @Last modified time: 2020-10-13 09:50
  */
