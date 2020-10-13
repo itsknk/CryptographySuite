@@ -1,9 +1,9 @@
 /**
  * @Author: Kishore Karanam <itsknk>
  * @Date: 2020-05-03T07:38:10+05:30
- * @Project: RSA Algorithm Implementation
+ * @Project: RSA(Rivest–Shamir–Adleman) Algorithm Implementation
  * @Last modified by: itsknk
- * @Last modified time: 2020-05-03T07:38:33+05:30
+ * @Last modified time: 2020-10-13 10:00
  */
 import java.util.*;
 import java.math.*;
