@@ -21,5 +21,12 @@ A collection of Cryptography Algorithms implemented in Java.
 4. Now based on the public keys generated it calculates the secret key for both A and B via the formula pkb^pka mod p for A and pka^pkb mod p for B.
 5. The final step involves checking whether the secret keys generated match or not, if they match then communication can be allowed or else it can't be.
 
+## Vigenere Cipher
+1. First step involves taking the user input for the plain text and the keyword.
+2. The user input will be in string format but is converted to charArray to make the implementation easy.
+3. Inside the encrypt funtion it creates a new key from the existing key by repeating it until it's equal to the plain text length and then using the formula (plaintext+key) mod 26 it encrypts the plain text and returns it.
+4. Inside the decrypt function it takes the encrypted text and then using the formula ((encryptedtext-key)+26) mod 26 it decrypts the encrypted text and returns it.
+5. The final step involves the main program calling those methods and printing the required data returned by those.
+
 ## License
 [MIT](https://github.com/itsknk/CryptographySuite/blob/master/LICENSE)
